@@ -11,6 +11,7 @@ var mysqlConnection = mysql.createConnection({
     password: '',
     database: 'employeedb'
 });
+
 mysqlConnection.connect((err)=>{
     if(!err){
         console.log('connection succesful');
